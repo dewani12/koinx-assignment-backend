@@ -1,0 +1,15 @@
+{
+  "name": "worker-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "publisher.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dewani",
+  "license": "ISC",
+  "dependencies": {
+    "nats": "^2.29.3"
+  }
+}
