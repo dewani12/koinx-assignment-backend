@@ -1,6 +1,6 @@
 import mongoose, { Schema } from "mongoose";
 
-const statSchema = new Schema({
+const cryptoStatSchema = new Schema({
   coin: {
     type: String,
     enum: ["bitcoin", "ethereum", "matic-network"],
@@ -26,6 +26,6 @@ const statSchema = new Schema({
   }
 })
 
-const Stat = mongoose.model("Stat", statSchema)
+const CryptoStat = mongoose.model("CryptoStat", cryptoStatSchema)
 
-export default Stat
+export default CryptoStat
