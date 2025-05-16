@@ -1,7 +1,7 @@
 import { connect, StringCodec } from "nats"
 import storeCryptoStats from "./CoingeckoApi.js"
 
-const NATS_URL = "nats://localhost:4222"
+const NATS_URL = "nats://localhost:4222" // bad
 
 const startSubscriber = async () => {
   try {
